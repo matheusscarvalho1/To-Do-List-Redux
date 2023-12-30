@@ -1,6 +1,6 @@
 # Projeto To do list
 
-✅ Projeto elaborado para estudar e aplicar os conhecimentos de javascript!
+✅ Projeto elaborado em React, utilizando redux, para criar global state na aplicação, afim de desenvolver uma lista de tarefas de coisas que precisam ser feitas no dia a dia.
 
 # Homepage
 
