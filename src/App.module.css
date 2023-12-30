@@ -135,3 +135,20 @@ body {
     transform: rotateX(-90deg);
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .todoList .customHeader {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .todoList .customHeader {
+    max-width: 300px;
+  }
+
+  .todoList footer input {
+    background-color: #171d37;
+    font-size: 15px;
+  }
+}
