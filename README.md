@@ -5,7 +5,7 @@
 
 </div>
 
-✅ Projeto elaborado em React, utilizando Redux (apesar de não ser necessário por conta da aplicação ser pequena, mas foi utilizado para fins de aprimorar o conhecimento em React Redux - para criar global state na aplicação), CSS Modules para estilizar a aplicação web, e UUID (com a finalidade de criar IDs aleatórios) - Para que o react saiba o ID de cada elemento adicionado pelo cliente), afim de desenvolver uma lista de tarefas de coisas que precisam ser feitas no dia a dia.
+✅ Projeto elaborado em React, utilizando Redux (apesar de não ser necessário por conta da aplicação ser pequena, mas foi utilizado para fins de aprimorar o conhecimento em React Redux - para criar global state na aplicação), CSS Modules para estilizar a aplicação web, e UUID (com a finalidade de criar IDs aleatórios - Para que o React saiba o ID de cada elemento adicionado), com o objetivo de desenvolver uma lista de tarefas de coisas que precisam ser feitas no dia a dia.
 
 
 
