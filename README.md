@@ -21,6 +21,7 @@ Também é necessário uma IDE, recomendo o [VSCode](https://code.visualstudio.c
 - [ReactJs versão 18.2.0](https://pt-br.legacy.reactjs.org)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [Redux versão 5.0.1](https://redux.js.org)
+- [React Redux versão 9.0.4](https://react-redux.js.org)
 - [UUID versão 9.0.1](https://www.npmjs.com/package/uuid) 
 
 
