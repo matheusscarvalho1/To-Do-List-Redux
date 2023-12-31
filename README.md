@@ -53,6 +53,13 @@ Layout simples, para apenas adicionar sua lista de afazeres e pressionar a tecla
   
 ![image](https://user-images.githubusercontent.com/73304785/228594324-ffbe1dd3-dfb3-4aab-8573-16e92ca03d42.png)
 
+![image](https://github.com/matheusscarvalho1/todo-list-redux/assets/73304785/7606c7ef-c151-4d80-a424-81016923a9e3)
+
+![image](https://github.com/matheusscarvalho1/todo-list-redux/assets/73304785/dc2a67c9-8b18-4b40-afbb-b5dedf833542)
+
+
+
+
 </div>
 
 
