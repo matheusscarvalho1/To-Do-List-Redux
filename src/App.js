@@ -1,22 +1,21 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { v4 as uuidv4 } from "uuid";
 import styles from "./App.module.css";
 
 function App() {
   const [inputTask, setInputTask] = useState("");
+  const inputTaskRef = useRef(null);
   const [completedTasks, setCompletedTasks] = useState([]);
   const tasks = useSelector((state) => state.tasks);
   const dispatch = useDispatch();
 
   const handleInput = (e) => {
-    setInputTask(e.target.value);
+    setInputTask(inputTaskRef.current.value);
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (!inputTask.trim()) {
+    if (!inputTaskRef.current.value.trim()) {
       alert("Por favor, insira uma tarefa");
       return;
     }
@@ -26,7 +25,7 @@ function App() {
       type: "ADD_TASK",
       payload: {
         id: taskId,
-        text: inputTask,
+        text: inputTaskRef.current.value,
       },
     });
     setInputTask("");
@@ -86,6 +85,7 @@ function App() {
           placeholder="Digite uma tarefa e aperte 'Enter'."
           onChange={handleInput}
           onKeyPress={handleKeyPress}
+          ref={inputTaskRef}
           value={inputTask}
           className={styles.footerInput}
         />
